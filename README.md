@@ -17,7 +17,7 @@ Focused C programs and exercises covering compilation, memory, debugging, data s
 
 ### Order Summary
 
-A terminal program that calculates and displays restaurant order line totals and a subtotal.
+A terminal program that calculates and displays restaurant order line totals and a subtotal. Multiple order lines, item quantities, line toals, total item count, subtotal calculation.
 
 ## Build
 
@@ -27,4 +27,3 @@ mkdir -p build
 clang -std=c17 -Wall -Wextra -Wpedantic \
     src/order_summary.c \
     -o build/order_summary
-    
